@@ -4,10 +4,9 @@
         src: url('#{$path}.eot');                                        /* IE9 Compat Modes     */
         src: url('#{$path}.eot?#iefix') format('embedded-opentype'),     /* IE6-IE8              */
              url('#{$path}.woff') format('woff'),                        /* Modern Browsers      */
-             url('#{$path}.ttf') format('truetype'),                     /* Safari iOS, Android, */
-             url('#{$path}.svg##{$family-name}') format('svg');          /* Legacy iOS           */
-
-        font-style: $style;
+             url('#{$path}.ttf') format('truetype');                     /* Safari iOS, Android, */
+        
         font-weight: $weight;
+        font-style: $style;
     }
 }
